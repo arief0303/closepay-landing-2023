@@ -1,0 +1,293 @@
+import React from "react";
+
+const SaasTools = () => {
+  const openTabSection = (evt, tabNmae) => {
+    let i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabs_item");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByTagName("li");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace("current", "");
+    }
+
+    document.getElementById(tabNmae).style.display = "block";
+    evt.currentTarget.className += "current";
+  };
+
+  return (
+    <>
+      <section className="saas-tools ptb-100 bg-gray">
+        <div className="container">
+          <div className="section-title">
+            <h2>Tools for Everyone</h2>
+            <div className="bar"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <div className="tab">
+                <ul className="tabs active">
+                  <li
+                    className="current"
+                    onClick={(e) => openTabSection(e, "tab1")}
+                  >
+                    <i className="icofont-dashboard-web"></i>
+                    <br />
+                    Dashboard
+                  </li>
+
+                  <li onClick={(e) => openTabSection(e, "tab2")}>
+                    <i className="icofont-inbox"></i>
+                    <br />
+                    Inbox
+                  </li>
+
+                  <li onClick={(e) => openTabSection(e, "tab3")}>
+                    <i className="icofont-ui-calendar"></i>
+                    <br />
+                    Calendar
+                  </li>
+
+                  <li onClick={(e) => openTabSection(e, "tab4")}>
+                    <i className="icofont-copy-invert"></i>
+                    <br />
+                    Invoicing
+                  </li>
+
+                  <li onClick={(e) => openTabSection(e, "tab5")}>
+                    <i className="icofont-wrench"></i>
+                    <br />
+                    Reporting
+                  </li>
+                </ul>
+
+                <div className="tab_content">
+                  <div id="tab1" className="tabs_item">
+                    <div className="row h-100 justify-content-center align-items-center">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_content mt-0">
+                          <h3>Dashboard</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo.
+                          </p>
+                          <ul>
+                            <li>
+                              <i className="icofont-ui-check"></i> Creative
+                              Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Retina Ready
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Modern Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Digital
+                              Marketing & Branding
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_img">
+                          <img src="/images/features-img1.png" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab2" className="tabs_item">
+                    <div className="row h-100 justify-content-center align-items-center">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_img">
+                          <img src="/images/features-img1.png" alt="img" />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_content mb-0">
+                          <h3>Inbox</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo.
+                          </p>
+                          <ul>
+                            <li>
+                              <i className="icofont-ui-check"></i> Creative
+                              Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Retina Ready
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Modern Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Digital
+                              Marketing & Branding
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab3" className="tabs_item">
+                    <div className="row h-100 justify-content-center align-items-center">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_content mt-0">
+                          <h3>Calendar</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo.
+                          </p>
+                          <ul>
+                            <li>
+                              <i className="icofont-ui-check"></i> Creative
+                              Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Retina Ready
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Modern Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Digital
+                              Marketing & Branding
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_img">
+                          <img src="/images/features-img1.png" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab4" className="tabs_item">
+                    <div className="row h-100 justify-content-center align-items-center">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_img">
+                          <img src="/images/features-img1.png" alt="img" />
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_content mb-0">
+                          <h3>Invoicing</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo.
+                          </p>
+                          <ul>
+                            <li>
+                              <i className="icofont-ui-check"></i> Creative
+                              Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Retina Ready
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Modern Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Digital
+                              Marketing & Branding
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="tab5" className="tabs_item">
+                    <div className="row h-100 justify-content-center align-items-center">
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_content mt-0">
+                          <h3>Reporting</h3>
+                          <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod tempor incididunt ut labore et
+                            dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo.
+                          </p>
+                          <ul>
+                            <li>
+                              <i className="icofont-ui-check"></i> Creative
+                              Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Retina Ready
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Modern Design
+                            </li>
+                            <li>
+                              <i className="icofont-ui-check"></i> Digital
+                              Marketing & Branding
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <div className="col-lg-6 col-md-6">
+                        <div className="tabs_item_img">
+                          <img src="/images/features-img1.png" alt="img" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+
+        {/* Shape Images */}
+        <div className="shape1">
+          <img src="/images/shape1.png" alt="img" />
+        </div>
+        <div className="shape2">
+          <img src="/images/shape2.png" alt="img" />
+        </div>
+        <div className="shape3">
+          <img src="/images/shape3.png" alt="img" />
+        </div>
+        <div className="shape6">
+          <img src="/images/shape6.png" alt="img" />
+        </div>
+        <div className="shape8 rotateme">
+          <img src="/images/shape8.svg" alt="shape" />
+        </div>
+      </section>
+    </>
+  );
+};
+
+export default SaasTools;
