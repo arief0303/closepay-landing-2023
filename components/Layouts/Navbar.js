@@ -57,7 +57,7 @@ class Navbar extends React.Component {
     let { products } = this.props;
 
     let layOutCls = "";
-    let logo = "/images/logo.png";
+    let logo = "/images/new-logo-cashless.svg";
     if (pathname == "/digital-marketing") {
       layOutCls = "marketing-navbar";
       logo = "/images/logo2.png";
