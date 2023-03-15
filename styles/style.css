@@ -1082,8 +1082,9 @@ Main Banner CSS
   left: 0;
 }
 .main-banner .saas-image img:nth-child(2) {
-  left: 55px;
-  top: -100px;
+  scale: 75%;
+  left: 0px;
+  top: -400px;
 }
 .main-banner .saas-image img:nth-child(3) {
   left: 36%;

@@ -30,77 +30,83 @@ class Banner extends React.Component {
                         alt="arrow"
                       />
                       <img
+                        src="/images/mockup.png"
+                        className="wow fadeInUp"
+                        data-wow-delay="0.6s"
+                        alt="mockup"
+                      />
+                      {/* <img
                         src="/images/saas-shape/box1.png"
                         className="wow fadeInUp"
                         data-wow-delay="0.6s"
                         alt="box1"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/boy1.png"
                         className="wow fadeInLeft"
                         data-wow-delay="0.6s"
                         alt="boy1"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/boy2.png"
                         className="wow zoomIn"
                         data-wow-delay="0.6s"
                         alt="boy2"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/boy3.png"
                         className="wow bounceIn"
                         data-wow-delay="0.6s"
                         alt="boy3"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/digital-screen.png"
                         className="wow fadeInDown"
                         data-wow-delay="0.6s"
                         alt="digital-screen"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/filter1.png"
                         className="wow zoomIn"
                         data-wow-delay="0.6s"
                         alt="filter1"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/filter2.png"
                         className="wow fadeInUp"
                         data-wow-delay="0.6s"
                         alt="filter2"
-                      />
+                      /> */}
                       <img
                         src="/images/saas-shape/filter3.png"
                         className="wow rotateIn"
                         data-wow-delay="0.6s"
                         alt="filter3"
                       />
-                      <img
+                      {/* <img
                         src="/images/saas-shape/girl1.png"
                         className="wow fadeInUp"
                         data-wow-delay="0.6s"
                         alt="girl1"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/girl2.png"
                         className="wow zoomIn"
                         data-wow-delay="0.6s"
                         alt="girl2"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/monitor.png"
                         className="wow zoomIn"
                         data-wow-delay="0.6s"
                         alt="monitor"
-                      />
-                      <img
+                      /> */}
+                      {/* <img
                         src="/images/saas-shape/main-image.png"
                         className="wow zoomIn"
                         data-wow-delay="0.6s"
                         alt="main-image.png"
-                      />
+                      /> */}
                     </div>
                   </div>
 
