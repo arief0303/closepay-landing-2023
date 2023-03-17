@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-3 col-md-6">
               <div className="single-footer-widget">
                 <Link href="/saas" className="logo">
-                  <img src="/images/logo2.png" alt="logo2" />
+                  <img src="/images/new-logo-cashless.svg" alt="logo2" />
                 </Link>
                 <p>
                   Plan by day, week, or month, and see project status at a
