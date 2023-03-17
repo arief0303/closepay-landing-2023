@@ -112,11 +112,9 @@ class Banner extends React.Component {
 
                   <div className="col-lg-6 col-md-12">
                     <div className="hero-content pl-4">
-                      <h1>Manage your business strategy in one placeholder</h1>
+                      <h1>Self managed payment ecosystem</h1>
                       <p>
-                        Our passion to work hard and deliver excellent results.
-                        It could solve the needs of your customers and develop
-                        innovation.
+                      The existing e-Money is general, there is no need-based e-Money platform. Build your own e-money ecosystem for your business.
                       </p>
 
                       <Link href="/contact" className="btn btn-primary">
