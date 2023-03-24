@@ -114,7 +114,7 @@ class Banner extends React.Component {
                     <div className="hero-content pl-4">
                       <h1>Self managed payment ecosystem</h1>
                       <p>
-                      The existing e-Money is general, there is no need-based e-Money platform. Build your own e-money ecosystem for your business.
+                        The existing e-Money is general, there is no need-based e-Money platform. Build your own e-money ecosystem for your business.
                       </p>
 
                       <Link href="/contact" className="btn btn-primary">
@@ -140,9 +140,9 @@ class Banner extends React.Component {
           <div className="shape1">
             <img src="/images/shape1.png" alt="img" />
           </div>
-          <div className="shape2">
+          {/* <div className="shape2">
             <img src="/images/shape2.png" alt="img" />
-          </div>
+          </div> */}
           <div className="shape3">
             <img src="/images/shape3.png" alt="img" />
           </div>

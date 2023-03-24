@@ -19,18 +19,6 @@
     height: 3px;
     margin: 18px auto 20px;
   }
-  .shape3 {
-    display: none;
-  }
-  .bg-gray.shape-1 {
-    display: none;
-  }
-  .shape1 {
-    display: none;
-  }
-  .shape6 {
-    display: none;
-  }
   .main-banner {
     height: 100%;
     padding-top: 110px;
@@ -96,9 +84,6 @@
   .main-banner .saas-image img:last-child {
     display: block;
   }
-  .main-banner.saas-home .shape1, .main-banner.saas-home .shape3 {
-    display: none;
-  }
   .main-banner.saas-home .shape3 {
     bottom: 10px;
     right: 0;
@@ -124,18 +109,12 @@
     font-size: 15px;
     padding-top: 18px;
   }
-  .main-banner.product-home .shape1, .main-banner.product-home .shape4, .main-banner.product-home .shape6 {
-    display: none;
-  }
   .main-banner.product-home .shape3 {
     bottom: 10px;
     right: 0;
   }
   .main-banner.product-home .shape-1 {
     opacity: 0.2;
-  }
-  .main-banner.app-home .shape4 {
-    display: none;
   }
   .main-banner.app-home .shape1 {
     display: none;
@@ -146,12 +125,6 @@
   }
   .main-banner.marketing-home {
     background: var(--whiteColor) url(/images/bg-point.png) no-repeat fixed right -700px center/auto;
-  }
-  .main-banner.marketing-home .shape4, .main-banner.marketing-home .shape2 {
-    display: none;
-  }
-  .main-banner.marketing-home .shape1 {
-    display: none;
   }
   .main-banner.marketing-home .shape3 {
     bottom: 10px;
@@ -168,9 +141,6 @@
     display: block;
   }
   .main-banner.marketing-home .bubble-animate, .main-banner.marketing-home .shape6 {
-    display: none;
-  }
-  .main-banner.software-home .shape4, .main-banner.software-home .shape2, .main-banner.software-home .shape1, .main-banner.software-home .shape6 {
     display: none;
   }
   .main-banner.software-home .shape3 {
@@ -1346,9 +1316,6 @@
   .startup-home .main-banner .shape6, .startup-home .main-banner .shape2, .startup-home .main-banner .shape3, .startup-home .main-banner .shape9 {
     display: none;
   }
-  .shape4 {
-    display: none;
-  }
   .shape1 {
     top: auto;
     left: 0;
@@ -1843,9 +1810,6 @@
     right: 45px;
     width: 350px;
   }
-  .main-banner .shape4, .main-banner .shape1 {
-    display: none;
-  }
   .main-banner .shape6 {
     opacity: 0.3;
   }
@@ -2011,10 +1975,6 @@
   .main-banner .book-image img {
     bottom: -280px !important;
     right: 0 !important;
-  }
-  .main-banner .shape4 {
-    left: 20%;
-    top: 23%;
   }
   .app-download .download-image img {
     left: -75px;

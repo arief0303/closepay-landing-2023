@@ -35,18 +35,18 @@ $value_eight: 1910px;
         }
     }
 
-    .shape3 {
-        display: none;
-    }
-    .bg-gray.shape-1 {
-        display: none;
-    }
-    .shape1 {
-        display: none;
-    }
-    .shape6 {
-        display: none;
-    }
+    // .shape3 {
+    //     display: none;
+    // }
+    // .bg-gray.shape-1 {
+    //     display: none;
+    // }
+    // .shape1 {
+    //     display: none;
+    // }
+    // .shape6 {
+    //     display: none;
+    // }
     .main-banner {
         height: 100%;
         padding: {
@@ -125,9 +125,9 @@ $value_eight: 1910px;
             }
         }
         &.saas-home {
-            .shape1, .shape3 {
-                display: none;
-            }
+            // .shape1, .shape3 {
+            //     display: none;
+            // }
             .shape3 {
                 bottom: 10px;
                 right: 0;
@@ -157,9 +157,9 @@ $value_eight: 1910px;
             }
         }
         &.product-home {
-            .shape1, .shape4, .shape6 {
-                display: none;
-            }
+            // .shape1, .shape4, .shape6 {
+            //     display: none;
+            // }
             .shape3 {
                 bottom: 10px;
                 right: 0;
@@ -169,9 +169,9 @@ $value_eight: 1910px;
             }
         }
         &.app-home {
-            .shape4 {
-                display: none;
-            }
+            // .shape4 {
+            //     display: none;
+            // }
             .shape1 {
                 display: none;
             }
@@ -183,12 +183,12 @@ $value_eight: 1910px;
         &.marketing-home {
             background: var(--whiteColor) url(/images/bg-point.png) no-repeat fixed right -700px center/auto;
 
-            .shape4, .shape2 {
-                display: none;
-            }
-            .shape1 {
-                display: none;
-            }
+            // .shape4, .shape2 {
+            //     display: none;
+            // }
+            // .shape1 {
+            //     display: none;
+            // }
             .shape3 {
                 bottom: 10px;
                 right: 0;
@@ -210,9 +210,9 @@ $value_eight: 1910px;
             }
         }
         &.software-home {
-            .shape4, .shape2, .shape1, .shape6 {
-                display: none;
-            }
+            // .shape4, .shape2, .shape1, .shape6 {
+            //     display: none;
+            // }
             .shape3 {
                 bottom: 10px;
                 right: 0;
@@ -1776,9 +1776,9 @@ $value_eight: 1910px;
             }
         }
     }
-    .shape4 {
-        display: none;
-    }
+    // .shape4 {
+    //     display: none;
+    // }
     .shape1 {
         top: auto;
         left: 0;
@@ -2551,9 +2551,9 @@ $value_eight: 1910px;
                 }
             }
         }
-        .shape4, .shape1 {
-            display: none;
-        }
+        // .shape4, .shape1 {
+        //     display: none;
+        // }
         .shape6 {
             opacity: .3;
         }
@@ -2828,10 +2828,10 @@ $value_eight: 1910px;
                 right: 0 !important;
             }
         }
-        .shape4 {
-            left: 20%;
-            top: 23%;
-        }
+        // .shape4 {
+        //     left: 20%;
+        //     top: 23%;
+        // }
     }
     .app-download {
         .download-image {
