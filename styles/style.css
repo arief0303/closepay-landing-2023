@@ -147,10 +147,12 @@ button {
 .btn-primary.focus, .btn-primary:focus {
   box-shadow: unset;
 }
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: unset;
 }
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary .show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary .show > .btn-primary.dropdown-toggle {
   color: var(--whiteColor);
   background: var(--templateColor);
   transform: translateY(-5px);
@@ -940,7 +942,8 @@ Main Banner CSS
 .main-banner .hero-content .btn:hover::after, .main-banner .hero-content .btn:hover::before {
   background: var(--whiteColor);
 }
-.main-banner .hero-content .btn-primary:not(:disabled):not(.disabled).active, .main-banner .hero-content .btn-primary:not(:disabled):not(.disabled):active, .main-banner .hero-content .btn-primary .show > .btn-primary.dropdown-toggle {
+.main-banner .hero-content .btn-primary:not(:disabled):not(.disabled).active, .main-banner .hero-content .btn-primary:not(:disabled):not(.disabled):active,
+.main-banner .hero-content .btn-primary .show > .btn-primary.dropdown-toggle {
   color: var(--templateColor2);
   background: var(--whiteColor);
 }
@@ -1075,65 +1078,8 @@ Main Banner CSS
   position: relative;
 }
 .main-banner .saas-image img {
-  position: absolute;
-}
-.main-banner .saas-image img:nth-child(1) {
-  top: -200px;
-  left: 0;
-}
-.main-banner .saas-image img:nth-child(2) {
+  position: relative;
   scale: 75%;
-  left: 0px;
-  top: -400px;
-}
-.main-banner .saas-image img:nth-child(3) {
-  left: 36%;
-  z-index: 1;
-  top: -170px;
-}
-.main-banner .saas-image img:nth-child(4) {
-  right: 27%;
-  top: 110px;
-  z-index: 2;
-}
-.main-banner .saas-image img:nth-child(5) {
-  right: 15%;
-  top: 80px;
-  z-index: 2;
-}
-.main-banner .saas-image img:nth-child(6) {
-  right: 25%;
-  top: -170px;
-}
-.main-banner .saas-image img:nth-child(7) {
-  right: 47%;
-  top: 96px;
-  z-index: 2;
-}
-.main-banner .saas-image img:nth-child(8) {
-  right: 22%;
-  top: 45px;
-  z-index: 1;
-}
-.main-banner .saas-image img:nth-child(9) {
-  right: 75px;
-  top: 20px;
-}
-.main-banner .saas-image img:nth-child(10) {
-  left: 32%;
-  top: -76px;
-  z-index: 1;
-}
-.main-banner .saas-image img:nth-child(11) {
-  right: 40%;
-  top: -20px;
-}
-.main-banner .saas-image img:nth-child(12) {
-  top: -292px;
-  left: 45px;
-}
-.main-banner .saas-image img:last-child {
-  display: none;
 }
 .main-banner .startup-image {
   position: relative;
@@ -1263,7 +1209,8 @@ Main Banner CSS
 .main-banner.marketing-home .hero-content .btn:hover::after, .main-banner.marketing-home .hero-content .btn:hover::before {
   background: var(--templateColor);
 }
-.main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled).active, .main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled):active, .main-banner.marketing-home .hero-content .btn-primary .show > .btn-primary.dropdown-toggle {
+.main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled).active, .main-banner.marketing-home .hero-content .btn-primary:not(:disabled):not(.disabled):active,
+.main-banner.marketing-home .hero-content .btn-primary .show > .btn-primary.dropdown-toggle {
   background: var(--templateColor);
   color: var(--whiteColor);
 }
@@ -1425,7 +1372,8 @@ Main Banner CSS
 .startup-home .startup-bg3 {
   background-image: url(/images/main-bg-3.jpg);
 }
-.startup-home .swiper-button-next:after, .startup-home .swiper-button-prev:after {
+.startup-home .swiper-button-next:after,
+.startup-home .swiper-button-prev:after {
   color: var(--templateColor);
 }
 
@@ -2181,7 +2129,8 @@ CTA CSS
 .cta-area .btn:hover::after, .cta-area .btn:hover::before {
   background: var(--whiteColor);
 }
-.cta-area .btn-primary:not(:disabled):not(.disabled).active, .cta-area .btn-primary:not(:disabled):not(.disabled):active, .cta-area .btn-primary .show > .btn-primary.dropdown-toggle {
+.cta-area .btn-primary:not(:disabled):not(.disabled).active, .cta-area .btn-primary:not(:disabled):not(.disabled):active,
+.cta-area .btn-primary .show > .btn-primary.dropdown-toggle {
   color: var(--templateColor2);
   background: var(--whiteColor);
 }
@@ -2479,7 +2428,8 @@ Work Process CSS
   background: var(--templateColor);
   opacity: 0.87;
 }
-.saas-work-process .section-title h2, .saas-work-process .section-title p {
+.saas-work-process .section-title h2,
+.saas-work-process .section-title p {
   color: var(--whiteColor);
 }
 .saas-work-process .section-title .bar {
@@ -2731,7 +2681,8 @@ Pricing CSS
 .pricing-table .price-footer .btn:hover::after, .pricing-table .price-footer .btn:hover::before {
   background: var(--whiteColor);
 }
-.pricing-table .price-footer .btn-primary:not(:disabled):not(.disabled).active, .pricing-table .price-footer .btn-primary:not(:disabled):not(.disabled):active, .pricing-table .price-footer .btn-primary .show > .btn-primary.dropdown-toggle {
+.pricing-table .price-footer .btn-primary:not(:disabled):not(.disabled).active, .pricing-table .price-footer .btn-primary:not(:disabled):not(.disabled):active,
+.pricing-table .price-footer .btn-primary .show > .btn-primary.dropdown-toggle {
   color: var(--templateColor2);
   background: var(--whiteColor);
 }
@@ -3058,7 +3009,8 @@ How App Works CSS
   background: var(--templateColor);
   opacity: 0.87;
 }
-.how-app-work .section-title h2, .how-app-work .section-title p {
+.how-app-work .section-title h2,
+.how-app-work .section-title p {
   color: var(--whiteColor);
 }
 .how-app-work .section-title .bar {
@@ -3110,7 +3062,8 @@ How App Works CSS
 /*================================================
 Screenshot CSS
 =================================================*/
-.screenshot-slides .swiper-button-next:after, .screenshot-slides .swiper-button-prev:after {
+.screenshot-slides .swiper-button-next:after,
+.screenshot-slides .swiper-button-prev:after {
   color: var(--templateColor);
 }
 .screenshot-slides .swiper-pagination {
@@ -3572,7 +3525,8 @@ App Download CSS
   left: 225px;
   top: 25px;
 }
-.app-download .col-lg-6, .app-download .col-md-12 {
+.app-download .col-lg-6,
+.app-download .col-md-12 {
   position: relative;
 }
 
@@ -4061,7 +4015,8 @@ Subscribe CSS
   background: var(--templateColor);
   opacity: 0.67;
 }
-.subscribe-area .section-title h2, .subscribe-area .section-title p {
+.subscribe-area .section-title h2,
+.subscribe-area .section-title p {
   color: var(--whiteColor);
 }
 .subscribe-area .section-title .bar {
@@ -4338,7 +4293,8 @@ Subscribe CSS
 /*================================================
 Product CSS
 =================================================*/
-.product-img-slides .swiper-button-next:after, .product-img-slides .swiper-button-prev:after {
+.product-img-slides .swiper-button-next:after,
+.product-img-slides .swiper-button-prev:after {
   color: var(--templateColor);
   font-size: 30px;
 }

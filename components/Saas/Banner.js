@@ -25,16 +25,16 @@ class Banner extends React.Component {
                   <div className="col-lg-6 col-md-12">
                     <div className="saas-image">
                       <img
-                        src="/images/saas-shape/arrow.png"
-                        className="wow fadeInDown"
-                        alt="arrow"
-                      />
-                      <img
                         src="/images/mockup.png"
                         className="wow fadeInUp"
                         data-wow-delay="0.6s"
                         alt="mockup"
                       />
+                      {/* <img
+                        src="/images/saas-shape/arrow.png"
+                        className="wow fadeInDown"
+                        alt="arrow"
+                      /> */}
                       {/* <img
                         src="/images/saas-shape/box1.png"
                         className="wow fadeInUp"
@@ -77,12 +77,12 @@ class Banner extends React.Component {
                         data-wow-delay="0.6s"
                         alt="filter2"
                       /> */}
-                      <img
+                      {/* <img
                         src="/images/saas-shape/filter3.png"
                         className="wow rotateIn"
                         data-wow-delay="0.6s"
                         alt="filter3"
-                      />
+                      /> */}
                       {/* <img
                         src="/images/saas-shape/girl1.png"
                         className="wow fadeInUp"
