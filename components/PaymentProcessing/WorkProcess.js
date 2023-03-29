@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkProcess = () => {
+const WhoUseClosepay = () => {
   return (
     <>
       <section className="saas-work-process ptb-100">
@@ -51,4 +51,4 @@ const WorkProcess = () => {
   );
 };
 
-export default WorkProcess;
+export default WhoUseClosepay;

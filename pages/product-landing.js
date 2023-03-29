@@ -6,7 +6,7 @@ import Features from "../components/ProductLanding/Features";
 import NewFeatures from "../components/ProductLanding/NewFeatures";
 import VirtualReality from "../components/ProductLanding/VirtualReality";
 import Overview from "../components/ProductLanding/Overview";
-import WorkProcess from "../components/ProductLanding/WorkProcess";
+import WhoUseClosepay from "../components/ProductLanding/WhoUseClosepay";
 import Works from "../components/ProductLanding/Works";
 import LatestProducts from "../components/ProductLanding/LatestProducts";
 import Blog from "../components/ProductLanding/Blog";
@@ -29,7 +29,7 @@ const ProductLanding = () => {
 
       <Overview />
 
-      <WorkProcess />
+      <WhoUseClosepay />
 
       <Works />
 
