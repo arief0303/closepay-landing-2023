@@ -2995,6 +2995,7 @@ SAAS Tools CSS
 Fun Facts CSS
 =================================================*/
 .single-funfact {
+
     position: relative;
     text-align: center;
     border: 1px solid #edf5ff;
@@ -3008,6 +3009,10 @@ Fun Facts CSS
 
     transition: .4s;
     border-radius: 5px;
+
+    // .fun-facts-image {
+    //     scale: 75%;
+    // }
 
     .icon {
         display: inline-block;
@@ -5137,7 +5142,7 @@ Join CSS
 
     h3 {
         font: {
-            size: 23px;
+            size: 64px;
             weight: 700;
         }
 
@@ -7604,6 +7609,7 @@ Back To Top CSS
 }
 
 .join-img {
+    scale: 60%;
     text-align: center;
 }
 

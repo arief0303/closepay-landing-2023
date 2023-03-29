@@ -535,6 +535,7 @@
     margin-top: 20px;
   }
   .fun-facts-inner-area .fun-facts-image {
+    scale: 75%;
     margin-bottom: 40px;
   }
   .fun-facts-inner-area .fun-facts-inner-content h3 {

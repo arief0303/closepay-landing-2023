@@ -3892,7 +3892,7 @@ Join CSS
   text-transform: uppercase;
 }
 .join-content h3 {
-  font-size: 23px;
+  font-size: 64px;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -5704,6 +5704,7 @@ Back To Top CSS
 }
 
 .join-img {
+  scale: 60%;
   text-align: center;
 }
 
