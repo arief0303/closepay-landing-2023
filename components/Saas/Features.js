@@ -101,7 +101,7 @@ const Features = () => {
           </div>
         </div>
 
-        <div className="features-inner-area">
+        {/* <div className="features-inner-area">
           <div className="container-fluid">
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-6 col-md-12">
@@ -151,7 +151,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="shape7">
           <img src="/images/shape7.png" alt="shape" />
