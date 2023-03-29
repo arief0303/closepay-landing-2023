@@ -8,7 +8,7 @@ import JoinCard from "../components/Saas/JoinCard";
 import CtaCard from "../components/Saas/CtaCard";
 import SaasTools from "../components/Saas/SaasTools";
 import Funfact from "../components/Saas/Funfact";
-import WorkProcess from "../components/Saas/WorkProcess";
+import WhoUseClosepay from "../components/Saas/WhoUseClosepay";
 import PricingPlan from "../components/Saas/PricingPlan";
 import GetStarted from "../components/Saas/GetStarted";
 import Feedback from "../components/Saas/Feedback";
@@ -23,25 +23,25 @@ const Index = () => {
 
       <Features />
 
-      <Overview />
+      <WhoUseClosepay />
+
+      {/* <Overview /> */}
 
       <JoinCard />
 
-      <CtaCard />
+      {/* <CtaCard /> */}
 
-      <SaasTools />
+      {/* <SaasTools /> */}
 
-      <Funfact />
+      {/* <Funfact /> */}
 
-      <WorkProcess />
+      {/* <PricingPlan /> */}
 
-      <PricingPlan />
+      {/* <GetStarted /> */}
 
-      <GetStarted />
+      {/* <Feedback /> */}
 
-      <Feedback />
-
-      <Partner />
+      {/* <Partner /> */}
 
       <Footer />
     </>
