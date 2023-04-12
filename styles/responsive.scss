@@ -113,15 +113,15 @@ $value_eight: 1910px;
             margin: 35px 0 0 0 !important;
         }
         .saas-image {
-            margin-bottom: 30px;
+            // margin-bottom: 30px;
 
             img {
                 position: relative;
                 display: none;
 
-                &:last-child {
-                    display: block;
-                }
+                // &:last-child {
+                //     display: block;
+                // }
             }
         }
         &.saas-home {
@@ -1674,10 +1674,10 @@ $value_eight: 1910px;
                     display: none;
                     position: relative;
 
-                    &:last-child {
-                        display: block;
-                        margin: 0 auto;
-                    }
+                    // &:last-child {
+                    //     display: block;
+                    //     margin: 0 auto;
+                    // }
                 }
             }
         }

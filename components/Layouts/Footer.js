@@ -13,9 +13,9 @@ const Footer = () => {
                   <img src="/images/new-logo-cashless.svg" alt="logo2" />
                 </Link>
                 <p>
-                  Plan by day, week, or month, and see project status at a
-                  glance. Search and filter to focus on anything from a single
-                  project individual.
+                  Help the education industry
+                  become more advanced
+                  with technology.
                 </p>
 
                 <ul className="social-list">
@@ -122,10 +122,7 @@ const Footer = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-6 col-md-6">
                 <p>
-                  Copyright @Mojosa. All rights reserved{" "}
-                  <a href="http://envytheme.com/" target="_blank">
-                    EnvyTheme
-                  </a>
+                  Copyright © 2021 PT Fokus Teknologi Pembayaran. All rights reserved.
                 </p>
               </div>
 

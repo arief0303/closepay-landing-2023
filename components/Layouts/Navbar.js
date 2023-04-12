@@ -100,14 +100,13 @@ class Navbar extends React.Component {
                   <ul className="navbar-nav nav ms-auto">
                     <li className="nav-item">
                       <Link
-                        href="/saas/"
-                        className={`nav-link ${
-                          router.pathname === "/" ? "active" : ""
-                        }`}
+                        href="/"
+                        className={`nav-link ${router.pathname === "/" ? "active" : ""
+                          }`}
                       >
                         Home
                       </Link>
-                      <ul className="dropdown_menu">
+                      {/* <ul className="dropdown_menu">
                         <li>
                           <Link
                             href="/saas"
@@ -205,9 +204,10 @@ class Navbar extends React.Component {
                             Payment Processing
                           </Link>
                         </li>
-                      </ul>
+                      </ul> */}
                     </li>
 
+                    {/*
                     <li className="nav-item">
                       <a href="/about-one/" className="nav-link">
                         Pages
@@ -605,7 +605,9 @@ class Navbar extends React.Component {
                         </li>
                       </ul>
                     </li>
+                    */}
 
+                    {/*
                     <li className="nav-item">
                       <Link
                         href="/portfolio-one"
@@ -667,13 +669,14 @@ class Navbar extends React.Component {
                         </li>
                       </ul>
                     </li>
+                    */}
 
+                    {/*
                     <li className="nav-item">
                       <Link
                         href="/blog-one/"
-                        className={`nav-link ${
-                          router.pathname === "/blog-one" ? "active" : ""
-                        }`}
+                        className={`nav-link ${router.pathname === "/blog-one" ? "active" : ""
+                          }`}
                       >
                         Blog
                       </Link>
@@ -712,13 +715,14 @@ class Navbar extends React.Component {
                         </li>
                       </ul>
                     </li>
+                    */}
 
+                    {/*
                     <li className="nav-item">
                       <Link
                         href="/shop-one"
-                        className={`nav-link ${
-                          router.pathname === "/shop-one" ? "active" : ""
-                        }`}
+                        className={`nav-link ${router.pathname === "/shop-one" ? "active" : ""
+                          }`}
                       >
                         Shop
                       </Link>
@@ -777,7 +781,7 @@ class Navbar extends React.Component {
                         </li>
                       </ul>
                     </li>
-
+                    */}
                     <li className="nav-item">
                       <Link
                         href="/contact"
@@ -785,7 +789,28 @@ class Navbar extends React.Component {
                           router.pathname === "/contact" ? "active" : ""
                         }
                       >
-                        Contact
+                        Profile
+                      </Link>
+                    </li>
+
+                    <li className="nav-item">
+                      <Link
+                        href="/features"
+                        className={
+                          router.pathname === "/features" ? "active" : ""
+                        }
+                      >
+                        Features
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link
+                        href="/contact"
+                        className={
+                          router.pathname === "/contact" ? "active" : ""
+                        }
+                      >
+                        About Us
                       </Link>
                     </li>
                   </ul>
@@ -793,13 +818,14 @@ class Navbar extends React.Component {
 
                 <div className="ms-auto others-option">
                   <ul className="navbar-nav">
+                    {/*
                     <li className="nav-item cart-wrapper">
                       <Link href="/cart">
                         <i className="icofont-shopping-cart cart-icon"></i>
                         <span>{products.length}</span>
                       </Link>
                     </li>
-
+                      */}
                     <li className="header-search-box">
                       <Link
                         href="#"
@@ -813,6 +839,7 @@ class Navbar extends React.Component {
                       </Link>
                     </li>
 
+                    {/*
                     <li onClick={this.handleDrawer}>
                       <div className="side-menu">
                         <span className="bar-1"></span>
@@ -820,6 +847,7 @@ class Navbar extends React.Component {
                         <span className="bar-3"></span>
                       </div>
                     </li>
+                    */}
                   </ul>
                 </div>
               </nav>

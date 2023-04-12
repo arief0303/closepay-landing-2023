@@ -4,7 +4,7 @@ import Footer from "../components/Layouts/Footer";
 import Banner from "../components/PaymentProcessing/Banner";
 import Boxes from "../components/PaymentProcessing/Boxes";
 import Features from "../components/PaymentProcessing/Features";
-import WhoUseClosepay from "../components/PaymentProcessing/WhoUseClosepay";
+import WorkProcess from "../components/PaymentProcessing/WhoUseClosepay";
 import Services from "../components/PaymentProcessing/Services";
 import Overview from "../components/PaymentProcessing/Overview";
 import CtaCard from "../components/PaymentProcessing/CtaCard";
@@ -24,7 +24,7 @@ const PaymentProcessing = () => {
 
       <Features />
 
-      <WhoUseClosepay />
+      <WorkProcess />
 
       <Services />
 

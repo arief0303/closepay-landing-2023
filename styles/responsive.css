@@ -74,15 +74,9 @@
     padding: 20px;
     margin: 35px 0 0 0 !important;
   }
-  .main-banner .saas-image {
-    margin-bottom: 30px;
-  }
   .main-banner .saas-image img {
     position: relative;
     display: none;
-  }
-  .main-banner .saas-image img:last-child {
-    display: block;
   }
   .main-banner.saas-home .shape3 {
     bottom: 10px;
@@ -1239,10 +1233,6 @@
   .main-banner.saas-home .saas-image img {
     display: none;
     position: relative;
-  }
-  .main-banner.saas-home .saas-image img:last-child {
-    display: block;
-    margin: 0 auto;
   }
   .main-banner .app-image img {
     position: relative;

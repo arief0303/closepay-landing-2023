@@ -15,9 +15,9 @@ const Features = () => {
 
       <FeaturesContent />
 
-      <Overview />
+      {/* <Overview /> */}
 
-      <Platform />
+      {/* <Platform /> */}
 
       <Footer />
     </>

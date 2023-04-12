@@ -106,13 +106,13 @@ const FeaturesContent = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-6 col-md-12">
                 <div className="features-image">
-                  <img src="/images/features-img1.png" alt="image feature" />
+                  <img src="/images/qr_scan1.png" alt="image feature" />
                 </div>
               </div>
 
               <div className="col-lg-6 col-md-12">
                 <div className="features-inner-content">
-                  <div className="features-item">
+                  {/* <div className="features-item">
                     <div className="icon">
                       <i className="icofont-ui-call"></i>
                     </div>
@@ -122,9 +122,9 @@ const FeaturesContent = () => {
                       a glance. Search and filter to focus on anything from a
                       single project to a person's workload.
                     </p>
-                  </div>
+                  </div> */}
 
-                  <div className="features-item">
+                  {/* <div className="features-item">
                     <div className="icon">
                       <i className="icofont-gift"></i>
                     </div>
@@ -134,7 +134,7 @@ const FeaturesContent = () => {
                       a glance. Search and filter to focus on anything from a
                       single project to a person's workload.
                     </p>
-                  </div>
+                  </div> */}
 
                   <div className="features-item">
                     <div className="icon">
@@ -142,9 +142,10 @@ const FeaturesContent = () => {
                     </div>
                     <h3>QR Code Scanner</h3>
                     <p>
-                      Plan by the day, week, or month, and see project status at
-                      a glance. Search and filter to focus on anything from a
-                      single project to a person's workload.
+                      The scan page is used to make sales transactions
+                      using the CPM (Customer Presented Mode) method. On this page,
+                      users are asked to scan the qr code that has been created by member
+                      users.
                     </p>
                   </div>
                 </div>
@@ -158,45 +159,65 @@ const FeaturesContent = () => {
             <div className="row h-100 justify-content-center align-items-center">
               <div className="col-lg-6 col-md-12">
                 <div className="features-image">
-                  <img src="/images/features-img1.png" alt="image" />
+                  <img src="/images/qr_scan2.png" alt="image" />
                 </div>
               </div>
 
               <div className="col-lg-6 col-md-12">
                 <div className="features-inner-content">
                   <div className="features-item">
-                    <div className="icon">
+                    <h3>Berikut panduan akses Scan, sebagai berikut :</h3>
+                    {/* <div className="icon">
                       <i className="icofont-ui-call"></i>
-                    </div>
-                    <h3>Free Calling Service</h3>
+                    </div> */}
+
+                  </div>
+
+                  <div className="features-item">
+                    {/* <div className="icon">
+                      <i className="icofont-ui-call"></i>
+                    </div> */}
                     <p>
-                      Plan by the day, week, or month, and see project status at
-                      a glance. Search and filter to focus on anything from a
-                      single project to a person's workload.
+                      1.  Klik ikon “Scan” pada halaman home.
                     </p>
                   </div>
 
                   <div className="features-item">
-                    <div className="icon">
+                    {/* <div className="icon">
                       <i className="icofont-gift"></i>
-                    </div>
-                    <h3>Daily Free Gift</h3>
+                    </div> */}
                     <p>
-                      Plan by the day, week, or month, and see project status at
-                      a glance. Search and filter to focus on anything from a
-                      single project to a person's workload.
+                      2.  Akan tampil halaman scan, dengan
+                      kondisi kamera belakang aktif.
                     </p>
                   </div>
 
                   <div className="features-item">
-                    <div className="icon">
+                    {/* <div className="icon">
                       <i className="icofont-qr-code"></i>
-                    </div>
-                    <h3>QR Code Scanner</h3>
+                    </div> */}
                     <p>
-                      Plan by the day, week, or month, and see project status at
-                      a glance. Search and filter to focus on anything from a
-                      single project to a person's workload.
+                      3.  Arahkan kamera ke qr code pada
+                      app mobile member.
+                    </p>
+                  </div>
+
+                  <div className="features-item">
+                    {/* <div className="icon">
+                      <i className="icofont-qr-code"></i>
+                    </div> */}
+                    <p>
+                      4.  Klik “Proses”.
+                    </p>
+                  </div>
+
+                  <div className="features-item">
+                    {/* <div className="icon">
+                      <i className="icofont-qr-code"></i>
+                    </div> */}
+                    <p>
+                      5.  Klik button “Selesai” untuk kembali
+                      ke halaman Home.
                     </p>
                   </div>
                 </div>
